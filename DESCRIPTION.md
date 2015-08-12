@@ -194,7 +194,7 @@ My knowledge on this subject is limited, but I believe this can be accomplished.
 
 Currently, BoomHub is at the idea stage. This document’s purpose is to bring this idea to the world, receive feedback and involve ‘believers’ in the development of a prototype,  setting up the foundation, receiving support, etc.
 
-For an overview of what help is needed and how you can contribute, please see [CONTRIBUTING.md](contributing.md)
+For an overview of what help is needed and how you can contribute, please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 
 
