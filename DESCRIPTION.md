@@ -7,7 +7,7 @@ Solve the problem of funding of free software, by building a system which allows
 
 The ultimate goal is to make it possible for developers to work full time on the projects that they share with the world, while earning proportionally to how the community adopts their work.
 
-#Concept or *tldr*
+#Concept
 
 BoomHub is a service which allows people to donate money to open source projects on repository hosting services, such as GitHub or BitBucket.
 
@@ -70,13 +70,13 @@ When accepting the donation, the owner is provided with a user interface which a
 
 ![](images/receive_donation.png)
 
-For example, the project owner might want 80% to go to project collaborators and 20% to the dependencies. Can also be 100%/0% or 0%/100%.
+For example, the project owner might want 80% to go to project collaborators and 20% to the dependencies. 
 
 The list of collaborators is determined automatically (through the Github API) and the owner can add or remove collaborators and tweak the percentage received by each of them (including himself), based on his subjective estimation of the contribution that they brought to the project.
 
 For dependencies, the owner can add or remove dependencies and adjust the percentages which he chooses to forward.
 
-In many cases, BoomHub can determine and suggest project dependencies [automatically](#dependencies).
+For many projects, project dependencies can be determined [automatically](#dependencies).
 
 When clicking 'Accept donation', the funds are transfered from the repository account to each collaborator (person) and dependency (repository) account.
 
@@ -99,27 +99,22 @@ Forked repositories will consider the parent repository as a dependency too.
 
 BoomHub suggests dependencies which might be appropriate to donate to, however, the project owner is the one who makes the final decision, because the 'importance' of dependencies is subjective and specific to every project.
 
-###Transparrency
+###Transparrency and privacy
 
-All donations are public. Everyone can see the amounts received by a repository, how much was distributed
+**The issue of transparrency versus privacy is still very much open. There are arguments which can be made for total tranparrenc or for total privacy. Currently, I'm assuming a totally transparrent service, which makes all donations public**
+
+All donations are public. 
+
+Everyone can see the amounts received by a repository, how much was distributed
 to the team and how much has been distributed to dependencies.
 Total transparrency is necessary in order to avoid suspicions of improper distribution of funds by the project owners.
 BoomHub will provide a public interface in which people can browse repositories and see the amounts received, how much was redistributed and how much the teams have received.
 
+
 ###Recognition
 Various tokens of recognition can be offered for donors. This can include 'thank you' e-mail messages from every repository that has been directly or indirectly funded by his donation, and, depending on the amount donated, can even receive physical tokens of recognition in the form of letters or certificates from the BoomHub foundation. Project owners will be encouraged to include the donor's name in the application or in one of the source files (if it's a library).
 
-Apart from that, donors will be able to use the publicly available donation info for his own publicity.
-
-###Privacy
-
-BoomHub should make as little impact as possible on the core motivation of developers to write free software: to create out of the desire to contribute to the world (not for monetary rewards). 
-
-The donations should be treated as tokens of gratitude and not 'funding', 'financing' or 'investment', eg. they should not serve as obligation to provide future work, but be considered as 'thank you' for work already done.
-
-Developers can see the sources of the donations - repositories and people who donated to them, but they will not be aware of the percentage which has been allocated to them.
-
-The fact of donation can, in theory, be used as a marketing tool by companies or individuals seeking to show their  support for free software and BoomHub might (should?) provide tools to publicize that, provided the owners of the projects agree to such publicity for the donor.
+Apart from that, donors can share the URL with the donation info on social media and receive recognition from their followers. 
 
 
 #<a href="withdraw"></a>
@@ -150,10 +145,6 @@ The 'inverted pyramid' scheme makes it possible for people who bring the greates
 earning based on their merit as perceived by people using the fruits of their work. It allows creators to focus on what they do best (programming, writing, design) and not have to engage in marketing or promotion of their work or seek employment, although it doesn't exclude that either.
 
 It also encourages developers to build more modular and reusable code - the more projects use your libraries as dependencies, the greater the probability of receiving donations.
-
-
-Some people assume that accepting donations is an act of 'extending the hand' or 'begging', while a deeper analysis reveals that in this case it's actually a sound thing to do, because people who donate are benefiting (sometimes greatly) from the developer's work and it's morally just to be rewarded for that contribution, even though financial gain was not the primary goal. Another aspect is that making a donation for a good cause (or an interesting project) brings feelings of satisfaction and social inclusion to people who make the donation.
-
 
 ###Legal entity
 
