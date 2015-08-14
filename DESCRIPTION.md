@@ -101,15 +101,22 @@ BoomHub suggests dependencies which might be appropriate to donate to, however, 
 
 ###Transparrency and privacy
 
-**The issue of transparrency versus privacy is still very much open. There are arguments which can be made for total tranparrenc or for total privacy. Currently, I'm assuming a totally transparrent service, which makes all donations public**
+**The issue of transparrency versus privacy is still very much open. There are arguments which can be made for total tranparrence or for total privacy. Currently, I'm assuming a totally transparrent service, which makes all donations public**
 
-All donations are public. 
+There are two possibilities:
+
+- All donations are public. 
 
 Everyone can see the amounts received by a repository, how much was distributed
 to the team and how much has been distributed to dependencies.
-Total transparrency is necessary in order to avoid suspicions of improper distribution of funds by the project owners.
-BoomHub will provide a public interface in which people can browse repositories and see the amounts received, how much was redistributed and how much the teams have received.
 
+The public will be able to browse the dependencies and see the donations and how the funds have been distributed between teams and dependencies.
+
+- Donations are private or team-private
+
+Financial details are totally hidden or only visible to some members of the team. 
+There are many tricky issues with making donations secret and it might be hard to guarantee that without leaking information.
+This might lead to tensions between projects or team members.
 
 ###Recognition
 Various tokens of recognition can be offered for donors. This can include 'thank you' e-mail messages from every repository that has been directly or indirectly funded by his donation, and, depending on the amount donated, can even receive physical tokens of recognition in the form of letters or certificates from the BoomHub foundation. Project owners will be encouraged to include the donor's name in the application or in one of the source files (if it's a library).
